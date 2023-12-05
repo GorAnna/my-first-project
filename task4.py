@@ -24,7 +24,7 @@ from keras.utils import to_categorical
 
 y_train_one_hot = to_categorical(y_train, num_classes=10)
 y_val_one_hot = to_categorical(y_val, num_classes=10)
-y_test_one_hot = to_categorical(y_test, num_classes=10)
+y_test_one_hot = y_test
 
 import tensorflow as tf
 from tensorflow import keras
